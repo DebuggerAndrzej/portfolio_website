@@ -1,21 +1,20 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Introduction from '../components/Introduction.astro';
-import Timeline from '../components/Timeline.astro';
+import Layout from "../layouts/Layout.astro";
+import Introduction from "../components/Introduction.astro";
+import Timeline from "../components/Timeline.astro";
 ---
 
 <Layout title="Andrzej Mazurkiewicz">
-	<main>
-		<div class="snap-y h-screen snap-mandatory overflow-y-scroll">
-
-		<div class="snap-start flex h-screen w-full justify-center items-center">
-			<div class="transition duration-700 ease-in-out hover:scale-125">
-				<Introduction/>
-			</div>
-		</div>
-		<div class="snap-start grid h-screen content-center">
-			<Timeline/>
-		</div>
-	</div>
-	</main>
+  <main>
+    <div class="snap-y h-screen snap-mandatory overflow-y-scroll">
+      <div class="snap-start flex h-screen w-full justify-center items-center">
+        <div class="transition duration-700 ease-in-out hover:scale-125">
+          <Introduction />
+        </div>
+      </div>
+      <div class="snap-start grid h-screen content-center">
+        <Timeline />
+      </div>
+    </div>
+  </main>
 </Layout>
