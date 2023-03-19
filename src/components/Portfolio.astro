@@ -1,0 +1,16 @@
+---
+import PorfolioItem from "./PortfolioItem.astro";
+import portfolio from "../data/portfolio";
+---
+
+<div class="flex flex-col md:flex-row items-center justify-center">
+  <div
+    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 transition-all duration-700 ease-in-out hover:gap-20"
+  >
+    {
+      portfolio.map((project) => (
+        <PorfolioItem title={project.title} imgUrl={project.img_url} stack={project.stack} link={project.link} />
+      ))
+    }
+  </div>
+</div>
