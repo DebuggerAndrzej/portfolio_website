@@ -4,25 +4,46 @@ import Introduction from "../components/Introduction.astro";
 import Timeline from "../components/Timeline.astro";
 import Portfolio from "../components/Portfolio.astro";
 import Contact from "../components/Contact.astro";
+import Snow from "../components/Snow.astro";
 ---
 
 <Layout title="Andrzej Mazurkiewicz">
   <main>
+    <Snow />
     <div class="snap-y h-screen snap-mandatory overflow-y-scroll">
-      <div class="snap-start flex h-screen w-full justify-center items-center">
-        <div class="transition duration-700 ease-in-out hover:scale-125">
+      <div class="snap-start relative flex flex-col h-screen w-full">
+        <div class="relative m-auto self-center">
           <Introduction />
         </div>
       </div>
-      <div class="snap-start grid h-screen content-center">
-        <Timeline />
+
+      <div class="snap-start relative flex flex-col h-screen w-full">
+        <div class="relative m-auto self-center">
+          <Timeline />
+        </div>
       </div>
-      <div class="snap-start grid h-screen content-center">
-        <Portfolio />
+
+      <div class="snap-start relative flex flex-col h-screen w-full">
+        <div class="relative m-auto self-center">
+          <Portfolio />
+        </div>
       </div>
-      <div class="snap-start grid h-screen content-center">
-        <Contact />
+
+      <div class="snap-start relative flex flex-col h-screen w-full">
+        <div class="relative m-auto self-center">
+          <Contact />
+        </div>
       </div>
     </div>
   </main>
 </Layout>
+
+<style>
+  h1 {
+    color: red;
+  }
+
+  .text {
+    color: blue;
+  }
+</style>
