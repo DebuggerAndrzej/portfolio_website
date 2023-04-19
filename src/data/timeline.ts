@@ -4,7 +4,7 @@ export default [
     company: "Wrocław University of Science and Technology",
     title: "Student",
     duration: "Three years",
-    details: "At University I have developed my passion to programming.",
+    details: "At University I have developed my passion for programming.",
     addtionalInfo: ["Many programming Languages ", "Data structures", "Understanding of algorithmic complexity"],
   },
 
@@ -17,7 +17,7 @@ export default [
     addtionalInfo: [
       "Developing python backend",
       "Maintenance and small feature work in JS/TS with React and Bootstrap",
-      "Solid ground for understanding how use git and work in team",
+      "Solid ground for understanding how to use git and work in team",
     ],
   },
   {
