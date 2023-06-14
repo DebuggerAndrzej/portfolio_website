@@ -12,9 +12,9 @@ export default [
     link: "https://github.com/DebuggerAndrzej/AoC-2022",
   },
   {
-    title: "Risma",
-    img_url: "/assets/crab.png",
-    stack: ["Rust", "Iced"],
-    link: "https://github.com/DebuggerAndrzej/Risma",
+    title: "RPV",
+    img_url: "/assets/rpv.png",
+    stack: ["Rust"],
+    link: "https://github.com/DebuggerAndrzej/RPV",
   },
 ];
